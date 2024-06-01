@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1E1E1E"
+    android:scaleType="centerCrop">
+
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/icono1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="35dp" />
+
+    <TextView
+        android:id="@+id/registros"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="Registro"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_toEndOf="@id/icon"
+        android:layout_leftHorizontal="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="56dp"
+        android:paddingTop="35dp" />
+
+    <TextView
+        android:id="@+id/nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Nombre"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_below="@id/registros"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="33dp"
+        android:paddingTop="52dp" />
+
+    <LinearLayout
+        android:id="@+id/primercuadro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nombre"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginEnd="33dp"
+        android:background="@drawable/rounded_blue_border"
+        android:padding="30dp"
+        android:orientation="vertical">
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/usuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Nombre de usuario"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_below="@id/primercuadro"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="33dp"
+        android:paddingTop="35dp" />
+
+    <LinearLayout
+        android:id="@+id/segundocuadro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/usuario"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginEnd="33dp"
+        android:background="@drawable/rounded_blue_border"
+        android:padding="30dp"
+        android:orientation="vertical">
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/contraseña"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Contraseña"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_below="@id/segundocuadro"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="33dp"
+        android:paddingTop="35dp" />
+
+    <LinearLayout
+        android:id="@+id/tercercuadro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contraseña"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginEnd="33dp"
+        android:background="@drawable/rounded_blue_border"
+        android:padding="30dp"
+        android:orientation="vertical">
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/confirmar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Confirma la contraseña"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_below="@id/tercercuadro"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="33dp"
+        android:paddingTop="35dp" />
+
+    <LinearLayout
+        android:id="@+id/cuartocuadro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/confirmar"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginEnd="33dp"
+        android:background="@drawable/rounded_blue_border"
+        android:padding="30dp"
+        android:orientation="vertical">
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_below="@id/cuartocuadro"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="33dp"
+        android:background="@drawable/button_gradient_rounded"
+        android:text="Crear cuenta"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textBelowButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿Ya tienes una cuenta? "
+        android:textSize="15sp"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/button"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inicia Sesión"
+        android:textSize="15dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_below="@id/button"
+        android:layout_toEndOf="@id/textBelowButton"
+        android:layout_marginTop="20dp" />
+</RelativeLayout>

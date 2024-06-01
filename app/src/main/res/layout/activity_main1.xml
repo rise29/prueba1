@@ -13,21 +13,4 @@
         android:layout_gravity="center"
         android:alpha="0.7" />
 
-
-    <TextView
-        android:id="@+id/textBelowImage"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="50sp"
-        android:text="NAPO"
-        android:textStyle="bold"
-        android:textColor="#0E1735"
-        android:layout_below="@id/centerImage"
-        android:layout_centerHorizontal="true"
-        android:shadowColor="#C1C1C1"
-        android:shadowDx="2"
-        android:shadowDy="2"
-        android:shadowRadius="2"
-        />
-
 </RelativeLayout>
